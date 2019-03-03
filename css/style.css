@@ -117,12 +117,12 @@ main {
 
 main img{
   object-fit: cover;
-  width: 90%;
+  width: 75%;
   align-self: center;
   max-width: 500px;
   border-radius: 3%;
   border: 2px solid rgba(250,250,230,1);
-  margin: 2%;
+  margin: auto 15%;
 }
 
 br {
@@ -225,6 +225,11 @@ h3 {
   text-align: left;
 }
 
+.timeline {
+  display: flex;  
+  flex-direction: column;
+} 
+
 fieldset {
   width: 90%;
   margin: 5%;
@@ -246,6 +251,8 @@ input {
 input:focus {
   background: lightgrey;
 }
+
+
 
 input:last-child {
         background: rgba(220,250,220,1);
